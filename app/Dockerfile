@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . . 
 
-CMD ["node" , "inex.js"]
+CMD ["node" , "index.js"]
