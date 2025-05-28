@@ -17,9 +17,9 @@ jobs:
             aws-secret-access-key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
             region: ${{secrets.AWS_REGION}}
 
-        - name: Login to Amazon ECR
-          id: login-ecr
-          uses: aws-actions/amazon-login-ecr@v1.7.1
+        - name: Hello World
+          run: 
+            echo "Actions work!"
           
 
         - name: Build and push the docker image
